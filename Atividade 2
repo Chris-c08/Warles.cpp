@@ -1,0 +1,88 @@
+#include <stdio.h>
+
+
+int main(){
+	
+	int num1, num2, soma, sub, multi, divi, res;
+	
+	printf("Informe o primeiro numero inteiro: ");
+	scanf("%d", &num1);
+	printf("Informe o segundo numero inteiro: ");
+	scanf("%d", &num2);
+	
+	soma = num1 + num2;
+	sub = num1 - num2;
+	multi = num1 * num2;
+	divi = num1 / num2;
+	res = num1 % num2;
+	
+	printf("Numero 1 \t Numero 2 \t Operacao \n");
+    printf("%d \t \t %d \t \t numero1 + numeo2 = %d \n", num1, num2, soma);
+    printf("%d \t \t %d \t \t numero1 - numeo2 = %d \n", num1, num2, sub);
+    printf("%d \t \t %d \t \t numero1 * numeo2 = %d \n", num1, num2, multi);
+    printf("%d \t \t %d \t \t numero1 / numeo2 = %d \n", num1, num2, divi);
+    printf("%d \t \t %d \t \t numero1 %% numeo2 = %d \n", num1, num2, res
+    );
+
+
+   
+	return 0;
+}
+
+
+
+#include <stdio.h>
+            
+int main() {
+  int num1;
+
+  printf("Informe um numero: ");
+  scanf("%d", &num1);
+
+  if (num1 % 2 == 0){
+    printf("O numero e par");
+  } else
+  {
+    printf("O numero e impar");
+  }
+
+  return 0;
+}
+
+#include <stdio.h>
+
+
+int main(){
+	
+	printf("\t Total \t = \t 100%% \n \t IVA \t = \t 17% \n \t IRS \t = \t 15%% \n");
+    printf("\t -------------------- \b \b \b \n");
+	printf(" \t Liq. \t = \t 68%% \n");
+	
+	return 0;
+}
+
+
+
+
+
+#include <stdio.h>
+
+
+int main(){
+
+    int num1, num2;
+
+    printf("Informe o primeiro numero: \n");
+    scanf("%d", &num1);
+
+    printf("Informe o segundo numero: \n");
+    scanf("%d", &num2);
+
+    if(num1 % num2 == 0){
+        printf("O numero: %d e multiplo do numero: %d \n", num1, num2);
+    }else{
+        printf("Os numeros: %d e %d nao sao mltiplos \n", num1, num2);
+    }
+
+    return 0;
+}
