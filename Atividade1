@@ -28,10 +28,9 @@ int main() {
     printf("    * \n");
     printf("    * \n");
     //O losangulo
-    printf("-------------\n");
     printf("      *    \n");
     printf("    *   *  \n");
-    printf("   *     *");
+    printf("   *     * \n");
     printf("  *       * \n");
     printf("   *     * \n");
     printf("    *   * \n");
@@ -55,16 +54,19 @@ LETRA D)
 #include <stdio.h>
  #include <stdlib.h>           
   int main(){
+    float celcius;
     printf("Informe a temperatura em celsius: ");
-    leia("%d" &celsius);
+    scanf("%d", &celsius);
   }
 
 LETRA F)
 #include <stdio.h>
  #include <stdlib.h>           
   int main(){
+    float raio;
+    float altura;
     printf("Informe o valor do raio: ");
-    scantf("%d" &raio);
+    scanf("%d", &raio);
     printf("Informe o valor da altura: ");
-    scantf("%d" &altura);
+    scanf("%d", &altura);
   }
