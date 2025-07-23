@@ -43,6 +43,8 @@ LETRA C)
 #include <stdio.h>
  #include <stdlib.h>           
 int main() {
+      int num1;
+      int num2;
       printf("escreva o primeiro numero: ");
       scantf("%d", &num1);
       printf("escreva o segundo numero: ");
