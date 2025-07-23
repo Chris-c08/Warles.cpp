@@ -77,7 +77,7 @@ int main(){
     if(num1 % num2 == 0){
         printf("O numero: %d e multiplo do numero: %d \n", num1, num2);
     }else{
-        printf("Os numeros: %d e %d nao sao mltiplos \n", num1, num2);
+        printf("Os numeros: %d e %d nao sao multiplos \n", num1, num2);
     }
 
     return 0;
