@@ -46,9 +46,9 @@ int main() {
       int num1;
       int num2;
       printf("escreva o primeiro numero: ");
-      scantf("%d", &num1);
+      scanf("%d", &num1);
       printf("escreva o segundo numero: ");
-      scantf("%d",  &num2);
+      scanf("%d",  &num2);
 }
 
 LETRA D)
