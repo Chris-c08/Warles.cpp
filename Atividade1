@@ -54,10 +54,13 @@ LETRA D)
 #include <stdio.h>
  #include <stdlib.h>           
   int main(){
-    float celcius;
+    float celcius, fahrenheit;
     printf("Informe a temperatura em celsius: ");
     scanf("%d", &celsius);
-  }
+    farenheit = (celcius * 1.8) + 32;
+    printf("%d", farenheit);
+
+   }
 
 LETRA F)
 #include <stdio.h>
