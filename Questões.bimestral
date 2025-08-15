@@ -85,12 +85,12 @@ int main(){
             break;
         }
         case 4:{
-            divisao = n1 / n2;
+            divisao = num1 / num2;
             printf("A divisao inteira e %d \n", divisao);
             break;
         }
         default:{
-            rest = n1 % n2;
+            rest = num1 % num2;
             printf("O resto e %d \n", rest);
             break;
         }
