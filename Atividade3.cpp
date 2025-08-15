@@ -1,16 +1,21 @@
 #include <stdio.h>
-#include <stdlib.h>
 
+int main() {
+    int N, num = 1;
 
-int main(){
+    printf("Digite um numero inteiro positivo: ");
+    scanf("%d", &N);
 
-    int num1 = 0;
-    printf("Informe um numero: ");
-    scanf("%d", &num1);
-    printf(" %d \n %d %d \n %d %d %d \n %d %d %d %d \n %d %d %d %d %d \n %d %d %d %d %d %d %d \n ", num1, num1 + 1, num1 + 2, num1 + 3, num1 + 4, num1 + 5, num1 +6, num1 + 7, num1 + 8, num1 + 9 , num1 + 10, num1 + 11, num1 + 12, num1 + 13, num1 + 14, num1 + 15, num1 + 16, num1 + 16, num1 + 17, num1 + 18, num1 + 19, num1 + 20, num1 + 21);
+    for (int i = 1; i <= N; i++) { 
+        for (int j = 1; j <= i; j++) {
+            printf("%d ", num);
+            num++;
 
+        printf("\n");
+    }
+
+    return 0;
 }
-
 
 
 #include <stdio.h>
