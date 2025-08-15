@@ -36,19 +36,19 @@ int main(){
 
 
 int main(){
-    long int mont, conta;
+    long int montante, conta;
     short int idade;
 
     printf("Informe sua idade: \n");
     scanf("%hd", &idade);
 
-    printf("Informe o valor do montante a ser depositado: \n");
-    scanf("%ld", &mont);
+    printf("Informe o valor a ser depositado: \n");
+    scanf("%ld", &montante);
 
     printf("Informe o numero da conta: ");
     scanf("%ld", &conta);
 
-    printf("Idade \t Montante \t Conta \n %hd \t %ld \t \t %ld \n", idade, mont, conta);
+    printf("Idade \t Montante \t Conta \n %hd \t %ld \t \t %ld \n", idade, montante, conta);
 }
 
 //Questão 4
@@ -57,41 +57,41 @@ int main(){
 
 
 int main(){
-    int n1, n2, soma, sub, multi, divi, res, t;
+    int num1, num2, soma, diferenca, produto, divisao, rest, t;
 
     printf("Informe o primeiro numero: ");
-    scanf("%d", &n1);
+    scanf("%d", &num1);
 
     printf("Informe o segundo numero: ");
-    scanf("%d", &n2);
+    scanf("%d", &num2);
 
-    printf("Que operacao com %d e %d voce deseja realizar: \n 1.Soma \n 2.Subtracao \n 3.Multiplicacao \n 4. Divisao \n 5.Resto \n", n1, n2);
+    printf("Que operacao com %d e %d voce deseja realizar: \n 1.Soma \n 2.Subtracao \n 3. Multiplicacao o \n 4. Divisao \n 5.Resto \n", n1, n2);
     scanf("%d", &t);
 
     switch (t){
         case 1:{
-            soma = n1 + n2;
+            soma = num1 + num2;
             printf("A soma e %d \n", soma);
             break;
         }
         case 2:{
-            sub = n1 - n2;
-            printf("A subtracao e %d \n", sub);
+            diferenca = num1 - num2;
+            printf("A subtracao e %d \n", diferenca);
             break;
         }
         case 3:{
-            multi = n1 * n2;
-            printf("A multiplicacao e %d \n", multi);
+            produto = num1 * num2;
+            printf("A multiplicacao e %d \n", produto);
             break;
         }
         case 4:{
-            divi = n1 / n2;
-            printf("A divisao inteira e %d \n", divi);
+            divisao = n1 / n2;
+            printf("A divisao inteira e %d \n", divisao);
             break;
         }
         default:{
-            res = n1 % n2;
-            printf("O resto e %d \n", res);
+            rest = n1 % n2;
+            printf("O resto e %d \n", rest);
             break;
         }
     };
