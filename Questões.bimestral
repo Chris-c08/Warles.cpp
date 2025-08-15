@@ -1,1 +1,98 @@
+//Questão 1
+#include<stdio.h>
+int main() {
 
+int num, num1, num2, num3, num4, num5, rest1, rest2, rest3, rest4;
+
+printf("Informe um número que tenha 5 algarismos:");
+scanf("%d", &num);
+
+    num1 = num / 10000;
+    rest1 = num % 10000;
+    num2 = rest1 / 1000;
+    rest2 = rest1 % 1000;
+    num 3 = rest2 / 100;
+    rest3 = rest2 % 100;
+    num4 = rest3 / 10;
+    rest4 = rest3 % 10;
+    num5 = rest4 / 1;
+
+printf("%d  %d  %d  %d  %d", num1, num2, num3, num4, num5);
+
+}
+
+//Questão 2
+#include <stdio.h>
+
+
+int main(){
+    for (int n = 0; n <= 10; n++){
+        printf("Numero \t Quadrado \t Cubo \n %d \t %d \t  \t %d \n", n, n * n, n * n * n);
+    }
+}
+
+//Questão 3
+#include <stdio.h>
+
+
+int main(){
+    long int mont, conta;
+    short int idade;
+
+    printf("Informe sua idade: \n");
+    scanf("%hd", &idade);
+
+    printf("Informe o valor do montante a ser depositado: \n");
+    scanf("%ld", &mont);
+
+    printf("Informe o numero da conta: ");
+    scanf("%ld", &conta);
+
+    printf("Idade \t Montante \t Conta \n %hd \t %ld \t \t %ld \n", idade, mont, conta);
+}
+
+//Questão 4
+#include <stdio.h>
+
+
+
+int main(){
+    int n1, n2, soma, sub, multi, divi, res, t;
+
+    printf("Informe o primeiro numero: ");
+    scanf("%d", &n1);
+
+    printf("Informe o segundo numero: ");
+    scanf("%d", &n2);
+
+    printf("Que operacao com %d e %d voce deseja realizar: \n 1.Soma \n 2.Subtracao \n 3.Multiplicacao \n 4. Divisao \n 5.Resto \n", n1, n2);
+    scanf("%d", &t);
+
+    switch (t){
+        case 1:{
+            soma = n1 + n2;
+            printf("A soma e %d \n", soma);
+            break;
+        }
+        case 2:{
+            sub = n1 - n2;
+            printf("A subtracao e %d \n", sub);
+            break;
+        }
+        case 3:{
+            multi = n1 * n2;
+            printf("A multiplicacao e %d \n", multi);
+            break;
+        }
+        case 4:{
+            divi = n1 / n2;
+            printf("A divisao inteira e %d \n", divi);
+            break;
+        }
+        default:{
+            res = n1 % n2;
+            printf("O resto e %d \n", res);
+            break;
+        }
+    };
+}
